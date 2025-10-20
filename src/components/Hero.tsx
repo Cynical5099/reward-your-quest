@@ -1,25 +1,19 @@
-import { Sparkles } from "lucide-react";
 import giftCardImage from "@/assets/amazon-gift-card.jpg";
 
 const Hero = () => {
   return (
-    <section className="text-center px-6 pt-12 pb-8 animate-fade-in">
-      <div className="inline-flex items-center gap-2 bg-accent/10 px-4 py-2 rounded-full mb-6 animate-pulse-glow">
-        <Sparkles className="w-4 h-4 text-accent" />
-        <span className="text-sm font-medium text-foreground">Limited Time Offer</span>
-      </div>
-      
-      <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground leading-tight">
+    <section className="text-center px-4 pt-8 pb-6 animate-fade-in">
+      <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-foreground leading-tight px-2">
         Earn Your{" "}
         <span className="text-primary">$750</span>{" "}
         Amazon Gift Card
       </h1>
       
-      <p className="text-lg text-muted-foreground mb-8 max-w-md mx-auto">
+      <p className="text-base sm:text-lg text-muted-foreground mb-6 max-w-md mx-auto px-2">
         Complete recommended deals and maximize your reward.
       </p>
       
-      <div className="relative max-w-sm mx-auto mb-8 animate-float">
+      <div className="relative max-w-[280px] sm:max-w-sm mx-auto mb-6 animate-float">
         <img 
           src={giftCardImage} 
           alt="$750 Amazon Gift Card Reward" 

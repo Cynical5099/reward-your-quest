@@ -23,18 +23,18 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <section className="px-6 py-12 bg-gradient-subtle">
-      <h2 className="text-3xl font-bold text-center mb-10 text-foreground">
+    <section className="px-4 py-8 bg-gradient-subtle">
+      <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-foreground px-2">
         How It Works
       </h2>
       
-      <div className="max-w-md mx-auto space-y-6">
+      <div className="max-w-md mx-auto space-y-4">
         {steps.map((step, index) => {
           const Icon = step.icon;
           return (
             <div 
               key={step.number}
-              className="bg-card rounded-xl p-6 shadow-card hover:shadow-glow transition-all duration-300 animate-fade-in"
+              className="bg-card rounded-xl p-4 sm:p-6 shadow-card hover:shadow-glow transition-all duration-300 animate-fade-in"
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <div className="flex items-start gap-4">
@@ -57,7 +57,7 @@ const HowItWorks = () => {
         })}
       </div>
       
-      <p className="text-center text-sm text-muted-foreground mt-8 px-4">
+      <p className="text-center text-xs sm:text-sm text-muted-foreground mt-6 px-4">
         All communication is secure. Your progress is tracked via email.
       </p>
     </section>
