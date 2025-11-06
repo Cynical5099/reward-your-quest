@@ -20,7 +20,7 @@ const Hero = () => {
           className="w-full rounded-2xl shadow-glow"
         />
         <div className="absolute -top-2 -right-2 bg-accent text-accent-foreground px-3 py-1 rounded-full text-sm font-bold shadow-lg">
-          $750
+          Up to $750
         </div>
       </div>
     </section>

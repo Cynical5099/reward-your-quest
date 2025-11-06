@@ -31,7 +31,7 @@ const TrustSection = () => {
         <div className="bg-gradient-card rounded-xl p-3 sm:p-4 shadow-card border border-accent/20 mb-4">
           <div className="flex items-center justify-center gap-2 text-accent">
             <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-            <span className="font-semibold text-xs sm:text-sm text-center">$750 reward claimed by 12 users today</span>
+            <span className="font-semibold text-xs sm:text-sm text-center">Amazon rewards claimed by 12 users today</span>
           </div>
         </div>
         
