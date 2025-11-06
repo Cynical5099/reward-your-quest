@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="text-center px-4 pt-8 pb-6 animate-fade-in">
       <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-foreground leading-tight px-2">
         Earn Your{" "}
-        <span className="text-primary">$750</span>{" "}
+        <span className="text-primary">$???</span>{" "}
         Amazon Gift Card
       </h1>
       
@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="relative max-w-[280px] sm:max-w-sm mx-auto mb-6 animate-float">
         <img 
           src={giftCardImage} 
-          alt="$750 Amazon Gift Card Reward" 
+          alt="Amazon Gift Card Reward" 
           className="w-full rounded-2xl shadow-glow"
         />
         <div className="absolute -top-2 -right-2 bg-accent text-accent-foreground px-3 py-1 rounded-full text-sm font-bold shadow-lg">
