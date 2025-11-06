@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const REWARD_LINK = "https://uplevelrewarded.com/aff_c?offer_id=144&aff_id=21664";
+const REWARD_LINK = "https://glstrk.com/?offer_ids=MzU4LDE0NCwzNDA%3D&affiliate_id=MTM0NjEw";
 
 const CTAButton = () => {
   const handleClick = () => {
