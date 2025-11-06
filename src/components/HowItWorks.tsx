@@ -17,7 +17,7 @@ const steps = [
     icon: Gift,
     number: "3",
     title: "Enjoy Your Reward",
-    description: "Receive your $750 Amazon gift card once your deals are complete."
+    description: "Receive your $XXX Amazon gift card once your deals are complete."
   }
 ];
 
