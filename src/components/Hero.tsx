@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="text-center px-4 pt-8 pb-6 animate-fade-in">
       <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-foreground leading-tight px-2">
         Earn Your{" "}
-        <span className="text-primary">$???</span>{" "}
+        <span className="text-primary">$XXX</span>{" "}
         Amazon Gift Card
       </h1>
       
